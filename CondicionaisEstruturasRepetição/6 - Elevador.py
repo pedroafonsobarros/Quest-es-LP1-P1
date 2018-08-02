@@ -8,6 +8,7 @@ while pessoas[i] != 0 and i <= 7 and parada == False:
 	i = i + 1
 	pesoTotal = pesoTotal + pessoas[i]
 	if pesoTotal > 560:
+		pesoTotal = pesoTotal - pessoas[i]
 		parada = True
 
 print(i)
